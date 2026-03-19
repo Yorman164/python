@@ -52,7 +52,7 @@ def agregar_producto():
 def mostrar_productos():
 
     lista_productos.delete(0,tk.END)
-
+#pruebs
     cursor.execute("SELECT * FROM productos")
     productos = cursor.fetchall()
 
